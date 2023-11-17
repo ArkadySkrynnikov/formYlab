@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #7fb0ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

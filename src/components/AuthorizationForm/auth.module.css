@@ -1,0 +1,38 @@
+.form_bg{
+    width: 400px;
+    height: 600px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.form_container{
+    padding: 40px;
+}
+
+.form_buttons_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form_button{
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    transition: 0.2s;
+}
+
+.form_button:hover{
+    background-color: #7fb0ce;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.active{
+    color: #7fb0ce;
+}
